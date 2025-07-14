@@ -55,39 +55,28 @@ Estimated_fire_area
 Count
 
 📦 Setup Instructions
-Clone the Repository:
 
-bash
-Copy
-Edit
+1. Clone the Repository:
+
 git clone https://github.com/yourusername/australia-wildfire-dashboard.git
 cd australia-wildfire-dashboard
-Install Dependencies:
 
-bash
-Copy
-Edit
+2. Install Dependencies:
+
 pip install -r requirements.txt
-Run the Dashboard:
 
-bash
-Copy
-Edit
-python wildfire_dashboard.py
-Access:
-Open your browser and navigate to http://127.0.0.1:8050/.
+3. Run the Dashboard:
+python Dash_wildfire.py
 
-📋 Requirements.txt (Sample)
-nginx
-Copy
-Edit
+
+📋 Requirements.txt 
 dash
 pandas
 plotly
-🎯 Usage
-Select a region from radio buttons.
 
-Select a year from the dropdown.
+🎯 Usage
+1. Select a region from radio buttons.
+2. Select a year from the dropdown.
 
 View:
 
